@@ -27,7 +27,13 @@
                 </li>
             </ul>
         </transition>
-        <audio :src="musicOn" class="play-audio" autoplay="autoplay" controls=true @play="on=true" @pause="on=false" ref="play"></audio>
+<!--        <audio :src="musicOn" class="play-audio" autoplay="autoplay" controls=true @play="on=true" @pause="on=false" ref="play"></audio>-->
+        <div class="musicbottom">
+          <div>
+            <i v-show="!on" @click="start()" class="off iconfont musicbottom-on">&#xe60c;</i>
+            <i v-show="on" @click="start()" class="on iconfont musicbottom-on">&#xe606;</i>
+          </div>
+        </div>
     </div>
 </template>
 
@@ -181,7 +187,7 @@ export default {
             &-font{
                 float:left;
                 margin-left:.666667rem;
-                margin-top:.2rem;
+                margin-top:.3rem;
                 height:0.5rem;
 
               & i{
@@ -193,7 +199,8 @@ export default {
             &-list{
                 float:right;
                 margin-right:.666667rem;
-                margin-top:0.2rem;
+                margin-top:0.4rem;
+              font-size: 0.3rem;
             }
         }
         &-audio{
@@ -240,4 +247,15 @@ export default {
         overflow-y:scroll;
         text-align:center;
     }
+  .musicbottom{
+    position: fixed;
+    width: 100%;
+    height: 1rem;
+    bottom: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    &-on{
+      float: left;
+    }
+  }
 </style>

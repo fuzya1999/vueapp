@@ -28,11 +28,11 @@
     },
     methods:{
       big(src) {
-        console.log(toString(src));
-        // this.$router.push('/photodetail/');
+      console.log(toString(src));
+      // this.$router.push('/photodetail/');
 
       this.$router.push({name:'photodetail',params:{src:src}});}
-    }
+  }
   }
 </script>
 

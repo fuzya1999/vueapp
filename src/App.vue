@@ -21,7 +21,7 @@ export default {
           this.test = menu;
         }
       })
-      
+
     }
   },
   data(){
@@ -30,12 +30,12 @@ export default {
       menuList:[
         {
           title:'电影',
-          bgColor:'#e54747',
+          bgColor:'#9a1c1b',
           name:'movie',
           path: '/movie',
         },{
           title:'音乐',
-          bgColor:'#009688',
+          bgColor:'#438d83',
           name:'music',
           path: '/music',
         },{
@@ -45,7 +45,7 @@ export default {
           path: '/book',
         },{
           title:'图片',
-          bgColor:'#3f51b5',
+          bgColor:'#4d5581',
           name:'photo',
           path: '/photo',
         }

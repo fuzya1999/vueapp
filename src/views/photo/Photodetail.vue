@@ -12,6 +12,7 @@
         }
       },
       created() {
+        console.log(this.$route.params.src)
         console.log(11);
         // this.getSrc = $route.params.src;
       }
@@ -23,7 +24,6 @@
   width: 100%;
   position: absolute;
   top:1rem;
-  bottom: 0;
-
+  bottom: 1rem;
 }
 </style>

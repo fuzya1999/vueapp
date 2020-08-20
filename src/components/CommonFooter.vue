@@ -20,7 +20,7 @@ export default {
         width:100%;
         height:1rem;
         line-height:1rem;
-        background::#e54747;
+        background:#9a1c1b;
         &-menu{
             flex-grow:1;
             text-align:center;

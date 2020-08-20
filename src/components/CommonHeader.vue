@@ -20,14 +20,14 @@ export default {
     .header{
         position:fixed;
         height: 1rem;
-        background-color: #e54747;
+        background-color: #9a1c1b;
         line-height:1rem;
         top:0;
         left:0;
         width:100%;
         color:#fff;
         font-size: 0.4rem;
-
+        z-index: 9999;
         &-title{
             position:absolute;
             top:50%;

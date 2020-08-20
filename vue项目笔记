@@ -5,7 +5,7 @@
      包管理器选npm->手动->(babel、Router、Vuex、CSS Pre-processors、Linter/Formatter)->勾选use history
      ->Sass/SCSS->...Airbnb...
      注意：a. npm run serve 运行打开页面
-           b.如果要自动打开，需要在项目根目录新建文件vue.config.js，并写入如下代码：
+          b.如果要自动打开，需要在项目根目录新建文件vue.config.js，并写入如下代码：
               module.exports = {
               devServer:{
                   port:8082,

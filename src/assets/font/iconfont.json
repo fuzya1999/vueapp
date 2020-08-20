@@ -1,10 +1,38 @@
 {
-  "id": "",
-  "name": "",
+  "id": "2019317",
+  "name": "vueapp",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "11808714",
+      "name": "播放",
+      "font_class": "icon_play",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4956289",
+      "name": "暂停",
+      "font_class": "zanting2",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1488892",
+      "name": "播放",
+      "font_class": "bofang2",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2604479",
+      "name": "播放",
+      "font_class": "bofang3",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
     {
       "icon_id": "1106168",
       "name": "上一首",
@@ -20,18 +48,25 @@
       "unicode_decimal": 58902
     },
     {
-      "icon_id": "1488892",
-      "name": "播放",
-      "font_class": "bofang",
-      "unicode": "e606",
-      "unicode_decimal": 58886
+      "icon_id": "1159902",
+      "name": "音量",
+      "font_class": "yinliang",
+      "unicode": "e626",
+      "unicode_decimal": 58918
     },
     {
-      "icon_id": "2604479",
-      "name": "播放",
-      "font_class": "bofang1",
-      "unicode": "e60c",
-      "unicode_decimal": 58892
+      "icon_id": "4237150",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "16648555",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
     }
   ]
 }

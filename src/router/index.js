@@ -31,7 +31,7 @@ const routes = [
     name:'photo',
     component:Photo,
   },{
-    path:'/moviedetail/:movieId',
+    path:'/moviedetail',
     name:'moviedetail',
     component:MovieDetail,
   },{
