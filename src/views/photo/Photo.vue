@@ -1,10 +1,9 @@
 <template>
     <div class="aa">
         <div class="clearfix">
-            <img  v-for="(photoa,index) in getPhoto" :key="index" :src="photoa.src" class="img" @click="big(photoa.src)">
+            <img  v-for="(photoa,index) in getPhoto" :key="index" :src="photoa.src" class="img" @click="big(index)">
         </div>
     </div>
-
 </template>
 
 <script>
@@ -20,6 +19,7 @@
     },
     created() {
         this.$emit('swichTab','photo');
+
         axios.get("data/photo.json").then(res=>{
           this.getPhoto = res.data.photoData;
           // console.log(this.getPhoto);
@@ -27,12 +27,11 @@
         });
     },
     methods:{
-      big(src) {
-      console.log(toString(src));
+      big(index) {
       // this.$router.push('/photodetail/');
-
-      this.$router.push({name:'photodetail',params:{src:src}});}
-  }
+console.log(index)
+      this.$router.push({name:'photodetail',params:{index:index}});}
+      }
   }
 </script>
 

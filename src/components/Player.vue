@@ -27,13 +27,13 @@
                 </li>
             </ul>
         </transition>
-<!--        <audio :src="musicOn" class="play-audio" autoplay="autoplay" controls=true @play="on=true" @pause="on=false" ref="play"></audio>-->
-        <div class="musicbottom">
-          <div>
-            <i v-show="!on" @click="start()" class="off iconfont musicbottom-on">&#xe60c;</i>
-            <i v-show="on" @click="start()" class="on iconfont musicbottom-on">&#xe606;</i>
-          </div>
-        </div>
+        <audio :src="musicOn" class="play-audio" autoplay="autoplay" controls=true @play="on=true" @pause="on=false" ref="play"></audio>
+<!--        <div class="musicbottom">-->
+<!--          <div>-->
+<!--            <i v-show="!on" @click="start()" class="off iconfont musicbottom-on">&#xe60c;</i>-->
+<!--            <i v-show="on" @click="start()" class="on iconfont musicbottom-on">&#xe606;</i>-->
+<!--          </div>-->
+<!--        </div>-->
     </div>
 </template>
 
